@@ -1,3 +1,21 @@
 form {
     font-family: 'Tajawal', sans-serif;
 }
+
+
+/*probando cosas randoms*/
+.textoPrueba{
+    /*fondo arcoiris gradiente para el texto*/
+    background: linear-gradient(to left,
+    red, orange, yellow, green, lightblue, indigo, violet);
+    /*limito el arcoiris al puro texto*/
+    background-clip: text;
+    /*texto sin color para apreciar el arcoiris*/
+    color: transparent;
+    /*animacion colores*/
+    animation: animated 5s linear infinite;
+}
+
+@keyframes animated{
+    to {background-position-x: 1000px;} /**/
+}
